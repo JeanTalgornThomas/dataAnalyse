@@ -27,7 +27,7 @@ services:
 
   pyspark-notebook:
     image: jupyter/pyspark-notebook
-    container_name: pyspark_notebook
+    container_name: pyspark_notebook_sx
     ports:
       - "8888:8888"
     volumes:
