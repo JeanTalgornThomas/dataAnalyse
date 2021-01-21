@@ -1,0 +1,21 @@
+- Prix moyen de vente général
+- Prix de vente le plus élevé
+- Prix de vente le plus bas
+
+- Pointure moyenne
+- Pointure la plus élevé
+- Pointure la plus basse
+- Pointure la plus vendu
+- Pointure la moins vendu
+
+- Les états qui achète le plus
+- Les états qui achète le moins
+
+- La marque qui achète le plus
+- La marque qui achète le moins
+
+- Les modèles les plus vendus
+- Les modèles les moins vendus
+
+- Nombre total de vente
+- Les dix dernières ventes
