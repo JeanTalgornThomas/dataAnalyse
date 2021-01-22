@@ -1,24 +1,36 @@
 # Projet Big Data - Groupe 5 
 
 **L'Objectif du Projet** :  <br />
-Analyser des données provenant de plusieurs fichiers csv en utilisant les architectures Hadoop et Spark.
+Le but du projet est d'analyser des données provenant de plusieurs fichiers datasets (.csv) en utilisant les technos Hadoop/Spark.
 
 **Données analysés** <br />
-Les données annalysées sont issue d'un dataset trouvable sous Kaggle.com. <br />
-Les données originales ont été splités en 10. <br />
-Les données se trouvent sous work/data/stockx/stockx-0001.csv <br />
+Les données analysées sont issue d'un dataset trouvable sur Kaggle.com. <br />
+*Source: https://www.kaggle.com/hudsonstuck/stockx-data-contest*
+
+Le dataset original contient environ 100 000 lignes. L'idée a été de splitter le dataset de base en 10 datasets d'environ 10 000 lignes pour apporter de la pertinence à l'usage de l'outil Spark. <br />
+
+Les données sont trouvables ici: work/data/stockx/ <br />
 
 **Environnement de travail** <br />
-Une image docker avec un Spark est utilisée pour ce projet.
-
-**Fichiers contenus dans le projet** <br />
-Readme.md
-
-**Fonctionnement technique du programme** <br />
+Nous avons travaillé sur Google Collab afin d'avoir un environnement propice au travail collaboratif et qui réponde à notre besoin.
 
 **Imports liés à python** <br />
 
-Axes d'amélioration <br />
+``` 
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.getOrCreate()
+import matplotlib.pyplot as plt
+import numpy as np 
+sc = SparkContext.getOrCreate()
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.getOrCreate()
+import matplotlib.pyplot as plt
+import numpy as np
+    
+```
+
+**Axes d'amélioration** <br />
+
 
 **Membres du groupe** :
 <br />
